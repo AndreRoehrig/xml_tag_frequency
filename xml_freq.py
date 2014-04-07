@@ -6,7 +6,6 @@ freqdict = {}
 
 for i in root.iter(None):
     elem = i.tag
-    print(elem)
     if elem in freqdict:
         freqdict[elem]+=1
     else:
